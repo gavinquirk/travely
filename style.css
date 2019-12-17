@@ -91,3 +91,39 @@ nav {
   background-color: var(--accentHover);
 }
 
+/* Info Section */
+.info {
+  grid-column: 2 / span 4;
+}
+
+.hero__font {
+  color: var(--light);
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 4.375rem;
+}
+
+.icons {
+  display: flex;
+  margin-top: 55px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon__info {
+  margin: 0 80px 0 20px;
+}
+
+.icon__top {
+  font-size: 1.0625rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.icon__bottom {
+  font-size: 1.5625rem;
+  font-weight: 700;
+}
