@@ -127,3 +127,54 @@ nav {
   font-size: 1.5625rem;
   font-weight: 700;
 }
+
+/* Features Section */
+.features {
+  grid-column: 2 / span 7;
+  background-color: var(--dark80);
+  align-self: end;
+  padding: 40px 0 0 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.feature {
+  display: flex;
+  margin: 0 60px 40px 0;
+}
+
+.feature:nth-child(3) {
+  align-self: flex-start;
+}
+
+.feature img {
+  height: 100px;
+  margin-right: 20px;
+}
+
+.feature__info {
+  margin-top: 10px;
+}
+
+.feature__top, .feature__cta {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.feature__cta {
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.feature__cta:hover {
+  color: var(--accent);
+}
+
+.feature__bottom {
+  width: 180px;
+  font-size: 1rem;
+  font-weight: 400;
+}
